@@ -1,4 +1,4 @@
-class Show < ActiveRecord::Base 
+class CreateShows < ActiveRecord::Base 
       def change 
           create_table :shows do |t|
             t.string   :name
