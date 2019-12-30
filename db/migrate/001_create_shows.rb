@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
             t.string   :network
             t.string   :day
             t.integer  :rating 
-            
-         end
+          end
       end
   end
+    
